@@ -1,0 +1,23 @@
+h3 {
+    background-color: lightblue;
+}
+
+.picture {
+    max-width: 400px;
+}
+
+.fl {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.fr {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+h3.clear {
+    clear: both;
+    /* clear: left; */
+    /* clear: right; */
+}
