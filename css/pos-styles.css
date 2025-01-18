@@ -6,9 +6,7 @@
 
 .container {
     width: 85%;
-    /*ширина блока від ширини екрана */
     margin: auto;
-    /*центрування блока */
     background-color: beige;
     position: relative;
     min-height: 2000px;

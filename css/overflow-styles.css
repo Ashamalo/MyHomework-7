@@ -1,7 +1,6 @@
     .container {
         width: min(100% - 100px, 1340px);
         margin-inline: auto;
-        background-color: hsl(214, 79%, 87%);
     }
 
     .content-container {

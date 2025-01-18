@@ -9,51 +9,49 @@
 </head>
 
 <body>
+    <section class="container">
+        <h1>Overflow types</h1>
+        <div class="content-container visible">
+            <h3>Overflow: Visible</h3>
+            <div>За замовчуванням. Вміст не обрізається, може відображатися зовні блоку, в якому воно розташоване.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam error veritatis neque ullam quis
+                    id
+                    perferendis. Incidunt labore necessitatibus voluptatibus pariatur ab. Tempore consectetur, ea
+                    quaerat architecto laborum dolorum. Blanditiis!</p>
+            </div>
+        </div>
 
-    <body>
-        <section class="container">
-            <h1>Overflow Examples</h1>
-            <div class="content-container visible">
-                <h3>Overflow: Visible</h3>
-                <div>За замовчуванням. Вміст не обрізається, може відображатися зовні блоку, в якому воно розташоване.
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam error veritatis neque ullam quis
-                        id
-                        perferendis. Incidunt labore necessitatibus voluptatibus pariatur ab. Tempore consectetur, ea
-                        quaerat architecto laborum dolorum. Blanditiis!</p>
-                </div>
+        <div class="content-container hidden">
+            <h3>Overflow: Hidden</h3>
+            <div class="content">Контет обрізається, без надання прокрутки..
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dicta doloremque et perferendis
+                    quo
+                    suscipit in laboriosam ducimus? Quod eos quaerat dicta. Voluptates laudantium sed eligendi.
+                    Quibusdam ipsum quam eligendi!</p>
             </div>
-
-            <div class="content-container hidden">
-                <h3>Overflow: Hidden</h3>
-                <div class="content">Контет обрізається, без надання прокрутки..
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dicta doloremque et perferendis
-                        quo
-                        suscipit in laboriosam ducimus? Quod eos quaerat dicta. Voluptates laudantium sed eligendi.
-                        Quibusdam ipsum quam eligendi!</p>
-                </div>
+        </div>
+        <div class="content-container scroll">
+            <h3>Overflow: Scroll</h3>
+            <div class="content">Вміст обрізається і браузер використовує елементи прокрутки, не має значення чи
+                було
+                обрізано вміст чи ні. Це уникає багатьох проблем щодо появи прокручувань і їх зникнення в
+                динамічному
+                середовищі. Принтери можуть друкувати переповнене вміст.
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Esse vero sed blanditiis consequuntur soluta, corporis repudiandae, est quo,
+                    ullam
+                    mollitia minus. Vitae optio fugiat eos nam laboriosam officia totam dolor?</p>
             </div>
-            <div class="content-container scroll">
-                <h3>Overflow: Scroll</h3>
-                <div class="content">Вміст обрізається і браузер використовує елементи прокрутки, не має значення чи
-                    було
-                    обрізано вміст чи ні. Це уникає багатьох проблем щодо появи прокручувань і їх зникнення в
-                    динамічному
-                    середовищі. Принтери можуть друкувати переповнене вміст.
-                    <p>Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Esse vero sed blanditiis consequuntur soluta, corporis repudiandae, est quo,
-                        ullam
-                        mollitia minus. Vitae optio fugiat eos nam laboriosam officia totam dolor?</p>
-                </div>
+        </div>
+        <div class="content-container auto">
+            <h3>Overflow: Auto</h3>
+            <div class="content">Смуги прокручування з'являються, тільки при необхідності.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum aperiam nesciunt delectus
+                    nostrum quia quaerat voluptatibus amet unde? Doloribus vero accusantium eum incidunt architecto
+                    nihil deleniti eos odio tempora.</p>
             </div>
-            <div class="content-container auto">
-                <h3>Overflow: Auto</h3>
-                <div class="content">Смуги прокручування з'являються, тільки при необхідності.
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum aperiam nesciunt delectus
-                        nostrum quia quaerat voluptatibus amet unde? Doloribus vero accusantium eum incidunt architecto
-                        nihil deleniti eos odio tempora.</p>
-                </div>
-            </div>
-        </section>
-    </body>
+        </div>
+    </section>
+</body>
 
 </html>
