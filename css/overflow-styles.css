@@ -1,0 +1,38 @@
+    .container {
+        width: min(100% - 100px, 1340px);
+        margin-inline: auto;
+        background-color: hsl(214, 79%, 87%);
+    }
+
+    .content-container {
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 20px auto;
+        background-color: #fadd7e;
+    }
+
+    .content {
+        width: 300px;
+        height: 200px;
+        background-color: #99f774;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .visible {
+        overflow: visible;
+    }
+
+    .hidden {
+        overflow: hidden;
+    }
+
+    .scroll {
+        overflow: scroll;
+    }
+
+    .auto {
+        overflow: auto;
+    }
